@@ -1,0 +1,2141 @@
+[ 2017-04-02T13:08:24+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0885s ]
+SQL: SELECT * FROM `user` WHERE `pname` = '张家奇' LIMIT 1   [ RunTime:0.0272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002379s ]
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:08:26+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:09:41+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:10:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:11:03+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:28+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:50+08:00 ] 127.0.0.1 /index.php/Home/Index/Asset-Statistics.html
+ERR: 非法操作:Asset-Statistics
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:57+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:58+08:00 ] 127.0.0.1 /index.php/Home/Index/recharge.html
+ERR: 非法操作:recharge
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:12:59+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:01+08:00 ] 127.0.0.1 /index.php/Home/Index/Withdrawals.html
+ERR: 非法操作:Withdrawals
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:34+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:35+08:00 ] 127.0.0.1 /index.php/Home/Index/Asset-Statistics.html
+ERR: 非法操作:Asset-Statistics
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:38+08:00 ] 127.0.0.1 /index.php/Home/Index/recharge.html
+ERR: 非法操作:recharge
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:40+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:41+08:00 ] 127.0.0.1 /index.php/Home/Index/Withdrawals.html
+ERR: 非法操作:Withdrawals
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:43+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:13:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:46+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:48+08:00 ] 127.0.0.1 /index.php/Home/Index/Asset-Statistics.html
+ERR: 非法操作:Asset-Statistics
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:52+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:14:53+08:00 ] 127.0.0.1 /index.php/Home/Index/recharge.html
+ERR: 非法操作:recharge
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:10+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:11+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:13+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:14+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:15:16+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:20+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:16:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:09+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:38+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:40+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:41+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:42+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:42+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:42+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:42+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:42+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:44+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:21:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:04+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:04+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:04+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:04+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:04+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:34+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:34+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T13:22:35+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:39:08+08:00 ] 127.0.0.1 /index.php/Home/Member/asset.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'c )' at line 1
+ [ SQL语句 ] : SELECT c.amount,i.rate FROM `personal_invest` left join invest_list i on c.project_id=i.project_id  WHERE ( SELECT `project_id`,`amount` FROM `personal_invest` WHERE ( user_id=2 ) c ) 
+
+[ 2017-04-02T14:40:09+08:00 ] 127.0.0.1 /index.php/Home/Member/asset.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT `project_id`,`amount` FROM `personal_invest` WHERE ( user_id=2 ) c left j' at line 1
+ [ SQL语句 ] : SELECT c.amount,i.rate FROM SELECT `project_id`,`amount` FROM `personal_invest` WHERE ( user_id=2 ) c left join invest_list i on c.project_id=i.project_id  
+
+[ 2017-04-02T14:40:10+08:00 ] 127.0.0.1 /index.php/Home/Member/asset.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT `project_id`,`amount` FROM `personal_invest` WHERE ( user_id=2 ) c left j' at line 1
+ [ SQL语句 ] : SELECT c.amount,i.rate FROM SELECT `project_id`,`amount` FROM `personal_invest` WHERE ( user_id=2 ) c left join invest_list i on c.project_id=i.project_id  
+
+[ 2017-04-02T14:45:38+08:00 ] 127.0.0.1 /index.php/Home/Member/asset.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT `project_id`,`amount` FROM `personal_invest` WHERE ( user_id=2 ) c left j' at line 1
+ [ SQL语句 ] : SELECT c.amount,i.rate FROM SELECT `project_id`,`amount` FROM `personal_invest` WHERE ( user_id=2 ) c left join invest_list i on c.project_id=i.project_id  
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T14:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:53:03+08:00 ] 127.0.0.1 /index.php/Home/Member/asset.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T15:54:26+08:00 ] 127.0.0.1 /index.php/Home/Member/asset.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T15:54:28+08:00 ] 127.0.0.1 /index.php/Home/Member/asset.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:30+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T15:54:31+08:00 ] 127.0.0.1 /index.php/Home/Member/member.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T15:54:38+08:00 ] 127.0.0.1 /index.php/Home/Member/member.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T15:55:50+08:00 ] 127.0.0.1 /index.php/Home/Member/member.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T15:55:51+08:00 ] 127.0.0.1 /index.php/Home/Member/member.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T15:55:54+08:00 ] 127.0.0.1 /index.php/Home/Member/member.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T16:02:19+08:00 ] 127.0.0.1 /index.php/Home/Member/member.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T16:02:19+08:00 ] 127.0.0.1 /index.php/Home/Member/member.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `money` FROM `property` WHERE ( user_id= ) LIMIT 1  
+
+[ 2017-04-02T16:02:35+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `pname` = '张家奇' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:37+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:40+08:00 ] 127.0.0.1 /index.php/Home/Index/Asset-Statistics.html
+ERR: 非法操作:Asset-Statistics
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:42+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:45+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:47+08:00 ] 127.0.0.1 /index.php/Home/Index/Asset-Statistics.html
+ERR: 非法操作:Asset-Statistics
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:53+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:02:59+08:00 ] 127.0.0.1 /index.php/Home/Index/Asset-Statistics.html
+ERR: 非法操作:Asset-Statistics
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:04+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:06+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:07+08:00 ] 127.0.0.1 /index.php/Home/Index/recharge.html
+ERR: 非法操作:recharge
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:09+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:45+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE `pname` = '张家奇' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:49+08:00 ] 127.0.0.1 /index.php/Home/Index/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:03:50+08:00 ] 127.0.0.1 /index.php/Home/Index/Asset-Statistics.html
+ERR: 非法操作:Asset-Statistics
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:26+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:05:27+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:21+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:23+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:23+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:23+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T16:10:23+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:03+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:07+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:45:08+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:47:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:49:53+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:49:53+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:49:56+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:49:56+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:49:57+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:49:57+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:50:06+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:50:06+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:50:08+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:50:08+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:50:09+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:50:09+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:50:44+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:50:44+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:15+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:52:47+08:00 ] 127.0.0.1 /index.php/Home/Index/head.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+ERR: 非法操作:head
+
+[ 2017-04-02T21:52:47+08:00 ] 127.0.0.1 /index.php/Home/Index/foot.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+ERR: 非法操作:foot
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:53:48+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:54+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:54:55+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:22+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jquery.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/Action.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/waste.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/banner.js
+ERR: 非法操作:js
+
+[ 2017-04-02T21:59:37+08:00 ] 127.0.0.1 /index.php/Home/Member/js/jQuery-jcMarquee.js
+ERR: 非法操作:js
+

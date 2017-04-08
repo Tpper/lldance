@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="keywords" content="scclui框架">
+	<meta name="description" content="scclui为轻量级的网站后台管理系统模版。">
+    <title>首页</title>
+
+	<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/sccl.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/common/skin/qingxin/skin.css" id="layout-skin"/>
+
+  </head>
+
+  <body>
+	<div class="layout-admin">
+		<header class="layout-header">
+
+			<span class="header-logo">系统框架</span>
+			<span class="res-info" id="nowtime" style="margin-left: 100px"></span>
+			<a class="header-menu-btn" href="javascript:;"><i class="icon-font">&#xe600;</i></a>
+			<ul class="header-bar">
+				<li><a href="{:U('Email/receive')}"><span id="tip" style="color:red;font-size: 12px;display:none"><img  src="__PUBLIC__/Admin/common/image/topmail.png" width="15" height="10"> 您有新消息</span></a></li>
+				<li class="header-bar-role"><a href="{:U('Login/index')}">{$Think.session.name.username}</a></li>
+				<li class="header-bar-nav">
+					<a href="javascript:;">{$Think.session.name}<i class="icon-font" style="margin-left:5px;">&#xe60c;</i></a>
+					<ul class="header-dropdown-menu">
+						<li><a href="javascript:;">个人信息</a></li>
+						<li><a href="javascript:;">切换账户</a></li>
+						<li><a href="{:U('Login/logout')}" id="logout" onclick="return confirm('确定退出吗')">退出</a></li>
+					</ul>
+				</li>
+
+				<li class="header-bar-nav">
+
+					<a href="javascript:;" title="换肤"><i class="icon-font">&#xe608;</i></a>
+					<ul class="header-dropdown-menu right dropdown-skin">
+						<li><a href="javascript:;" data-val="qingxin" title="清新">清新</a></li>
+						<li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+						<li><a href="javascript:;" data-val="molv" title="墨绿">墨绿</a></li>
+
+					</ul>
+				</li>
+			</ul>
+		</header>
+		<aside class="layout-side">
+			<ul class="side-menu">
+
+			</ul>
+		</aside>
+
+		<div class="layout-side-arrow"><div class="layout-side-arrow-icon"><i class="icon-font">&#xe60d;</i></div></div>
+
+		<section class="layout-main">
+			<div class="layout-main-tab">
+				<button class="tab-btn btn-left"><i class="icon-font">&#xe60e;</i></button>
+                <nav class="tab-nav">
+                    <div class="tab-nav-content">
+						
+                        <a href="#" class="content-tab active" data-id="home.html">首页</a>
+                    </div>
+                </nav>
+                <button class="tab-btn btn-right"><i class="icon-font">&#xe60f;</i></button>
+			</div>
+			<div class="layout-main-body">
+				<iframe class="body-iframe" name="iframe0" width="100%" height="99%" src="{:U('home')}" frameborder="0" data-id="home.html" seamless></iframe>
+			</div>
+		</section>
+		<div class="layout-footer">@2016 0.1 www.mycodes.net</div>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/Admin/common/lib/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Admin/common/js/sccl.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Admin/common/js/sccl-util.js"></script>
+	<script>
+		// ajax 定时刷新邮件
+		function checkMsg(){
+			var url = "{:U('Email/checkMsg')}";
+			$.post(url,{},function(e){
+				if(e != 0){
+					$('#tip').css('display','');
+				}else{
+					$('#tip').css('display','none');
+				}
+				//document.write(e);
+				//alert(1);
+			},'json');
+		}
+		checkMsg();
+		$(function(){
+			setInterval('checkMsg()',5000);
+		})
+	</script>
+	<script>
+		$(function(){
+			$("#nowtime").css({color:'red'});
+//               $("#host").html(location.host);
+			window.setInterval('ShowTime()',1000)
+		});
+		function ShowTime(){
+			var t =new Date();
+			var str =t.getFullYear() + '年';
+			str += t.getMonth() + '月';
+			str += t.getDate() + '日';
+			str += t.getHours() + ':';
+			str += t.getMinutes() + ':';
+			str += t.getSeconds() + '';
+			$("#nowtime").html(str);
+		}
+	</script>
+	<script>
+//		$('#logout').click(function(){
+//			$.ajax({
+//				type:get,
+//				url:"{:U('Login/logout')}",
+//				dataType:html,
+//				success:function(e){
+//					location.href="{:U('Login/index')}"
+//				}
+//			})
+//		})
+	</script>
+  </body>
+</html>

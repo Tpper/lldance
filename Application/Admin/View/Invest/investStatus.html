@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/base.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Admin/common/css/info-mgt.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Admin/common/css/WdatePicker.css" />
+    <title>投资状态</title>
+  </head>
+  <body>
+        <!--<table border="1" cellspacing="0" align="center">
+            <tr align="center">
+                <th width="120">ID</th>
+                <th width="120">姓名</th>
+                <th width="120">投资项目</th>
+                <th width="120">项目类型</th>
+                <th width="120">投资金额</th>
+                <th width="120">项目进度</th>
+                <th width="120">结算日期</th>
+            </tr>
+            <volist name="data" id="vo">
+            <tr>
+                <td>{$vo.id}</td>
+                <td>{$vo.username}</td>
+                <td>{$vo.project_name}</td>
+                <td>{$vo.type}</td>
+                <td>{$vo.amount}</td>
+                <td>{$vo.jindu}</td>
+                <td>{$vo.day}</td>
+            </tr>
+            </volist>
+        </table>-->
+    <div class="title"><h2>投资状态</h2></div>
+    <!--<div class="table-operate ue-clear">
+        <a href="add.html" class="add">添加</a>
+        <a href="javascript:;" class="del">删除</a>
+        <a href="javascript:;" class="edit">编辑</a>
+        <a href="javascript:;" class="count">统计</a>
+        <a href="javascript:;" class="check">审核</a>
+    </div>-->
+    <div class="table-box">
+        <table>
+            <thead>
+              
+                <tr align="center">
+                    <th width="120">ID</th>
+                    <th width="120">姓名</th>
+                    <th width="120">投资项目</th>
+                    <th width="120">项目类型</th>
+                    <th width="120">投资金额</th>
+                    <th width="120">项目进度</th>
+                    <th width="120">结算日期</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+            <volist name="data" id="vo">
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td>{$vo.name}</td>
+                    <td>{$vo.project_name}</td>
+                    <td>{$vo.type}</td>
+                    <td>{$vo.amount}</td>
+                    <td>{$vo.jindu}</td>
+                    <td>{$vo.day}</td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+        <div class="pagination ue-clear" align="center">{$show}</div>
+    </div>
+    <div class="pagination ue-clear"></div>
+  </body>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/common.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/WdatePicker.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.pagination.js"></script>
+  <script src="__PUBLIC__/Admin/Plugins/layer/layer.js"></script>
+</html>

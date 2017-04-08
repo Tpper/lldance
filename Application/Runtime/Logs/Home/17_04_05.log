@@ -1,0 +1,12 @@
+[ 2017-04-05T11:01:27+08:00 ] 127.0.0.1 /index.php
+ERR: SQLSTATE[HY000] [1130] Host '192.168.23.62' is not allowed to connect to this MariaDB server
+
+[ 2017-04-05T16:38:39+08:00 ] 127.0.0.1 /index.php/Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `user` WHERE `pname` = '2314'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: validate D:\project\invest\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+

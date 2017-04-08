@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/base.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/info-mgt.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/WdatePicker.css" />
+<title>移动办公自动化系统</title>
+</head>
+
+<body>
+<div class="title"><h2>借款信息</h2></div>
+<div class="table-operate ue-clear">
+    <a href="{:U('Borrow/tongji')}" class="count">统计</a>
+    <a href="javascript:;" class="check">审核</a>
+</div>
+<div class="table-box">
+	<table>
+    	<thead>
+        	<tr>
+            	<th class="num">序号</th>
+                <th class="name">姓名</th>
+                <th class="process">性别</th>
+                <th class="node">出生日期</th>
+                <th class="node">电话</th>
+                <th class="node">城市</th>
+                <th class="node">借款金额</th>
+                <th class="node">借款期限</th>
+                <th class="node">月收入</th>
+                <th class="time">借款时间</th>
+                <th class="time">用户id</th>
+                <th class="operate">审批状态</th>
+                <th class="operate">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+        <volist name="data" id="vo">
+        	<tr id="{$vo.id}">
+            	<td class="num">{$vo.id}</td>
+                <td class="name">{$vo.name}</td>
+                <td class="process">{$vo.sex}</td>
+                <td class="node">{$vo.birthday}</td>
+                <td class="node">{$vo.tel}</td>
+                <td class="node">{$vo.city|msubstr=0,4}</td>
+                <td class="node">{$vo.amount}</td>
+                <td class="node">{$vo.date}</td>
+                <td class="node">{$vo.income}</td>
+                <td class="time">{$vo.time|date="Y-n-d",###}</td>
+                <td class="node">{$vo.user_id}</td>
+                <td class="node">
+                    <if condition="$vo.is_read eq 3">
+                        <span style="color:#ff7f00">已通过</span>
+                    <elseif condition="$vo.is_read eq 2"/>
+                        <span style="color:yellow">已拒绝</span>
+                    <elseif condition="$vo.is_read eq 1"/>
+                        <span style="color:#00E8D7">已审批</span>
+                    <else />
+                        <span style="color: red">正在审批</span>
+                    </if>
+                </td>
+                <td class="operate">
+                    <a href="javascript:;" class="chakan" data-title="{$vo.name}" data-description="{$vo.id}">查看</a>
+                </td>
+            </tr>
+        </volist>
+        </tbody>
+    </table>
+    <div class="pagination ue-clear">{$show}</div>
+</div>
+</body>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/common.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/WdatePicker.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.pagination.js"></script>
+<script src="__PUBLIC__/Admin/Plugins/layer/layer.js"></script>
+
+<script>
+    $(function(){
+        $('.chakan').click(function(){
+            //获取title和描述
+            var id = $(this).attr('data-description');
+            var url="__CONTROLLER__/showlist/id/"+id;//后台地址
+            //alert(url);
+            //页面层
+            layer.open({
+                type: 2,
+                title: '借款人信息',
+                maxmin: true,
+                // shadeClose: false, //点击遮罩关闭层
+                shade: 0,
+                area : ['500px' , '500px'],
+                content: url,
+                end:function () {
+                    window.location.reload();
+                }
+            });
+        });
+    })
+
+</script>
+</html>

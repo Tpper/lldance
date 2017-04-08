@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/common/css/base.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/Admin/common/css/info-reg.css"/>
+    <title>前台发信</title>
+</head>
+
+<body>
+<div class="title"><h2>给用户发信件</h2></div>
+<form action="{:U('Email_User/addHandle_User')}" method="post" enctype="multipart/form-data">
+    <div class="main">
+        <p class="short-input ue-clear">
+            <label>主题：</label>
+            <input type="text" name="title" placeholder="站内信标题"/>
+        </p>
+        <div class="short-input select ue-clear">
+            <label>选择收件人：</label>
+            <div class="select-wrap">
+                <select name="receive_id" id="">
+                    <option value= "">--请选择收件人--</option>
+                    <option value="true">全体用户</option>
+                    <volist name="user" id="vo">
+                        <option value="{$vo.id}">{$vo.pname}</option>
+                    </volist>
+                </select>
+
+            </div>
+        </div>
+        <p class="short-input ue-clear">
+            <label>附件：</label>
+            <input type="file" name="file"/>
+        </p>
+        <p class="short-input ue-clear">
+            <label>内容：</label>
+            <textarea placeholder="内容" name="content"></textarea>
+        </p>
+    </div>
+    <div class="btn ue-clear">
+        <a href="javascript:;" class="confirm">确定</a>
+        <a href="javascript:;" class="clear">清空内容</a>
+    </div>
+</form>
+</body>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/common.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/WdatePicker.js"></script>
+
+<script>
+    $(function(){
+        //提交表单
+        $('.confirm').click(function () {
+            $('form').submit();
+        })
+        //重置表单
+        $('.clear').click(function(){
+            $('form')[0].reset();
+        })
+    })
+</script>
+
+<script type="text/javascript">
+    $(".select-title").on("click", function () {
+        $(".select-list").toggle();
+        return false;
+    });
+    $(".select-list").on("click", "li", function () {
+        var txt = $(this).text();
+        $(".select-title").find("span").text(txt);
+    });
+
+
+    showRemind('input[type=text], textarea', 'placeholder');
+</script>
+</html>

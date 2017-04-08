@@ -1,0 +1,166 @@
+    <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/base.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/info-mgt.css" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/WdatePicker.css" />
+<link rel="stylesheet" href="__PUBLIC__/Home/css/page.css" />
+<title>后台收件箱</title>
+</head>
+
+<body style="position: relative;">
+<div class="title"><h2>收件箱</h2></div>
+<div class="table-operate ue-clear">
+    <a href="{:U('add')};" class="add">写信</a>
+    <a href="javascript:delAllReceive();" class="del" onclick="return confirm('确定要全部删除?')">全删</a>
+    <a href="javascript:batchDel();" id="batchDel" onclick="return confirm('确定要删除?')">批量删除</a>
+</div>
+<div class="table-box">
+<form method="post" action="{:U('delCheck')}" id="myform">  
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th class="num">序号</th>
+                <th class="process">发件人</th>
+                <th class="name">标题</th>
+                <th class="node">发送时间</th>
+                <th class="time">是否已读</th>
+                <th class="time">附件</th>
+                <th class="operate">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <volist name="data" id="vo">
+            <tr id="a{$vo.id}">
+                <td class="num ">
+                    <input name="check[]" value="{$vo.id}" type="checkbox">
+                </td>
+                <td class="num" id="yi">{$p+$i}</td>
+                <td class="process">{$vo.username}</td>
+                <td class="name" id="rec">{$vo.title}</td>
+                <td class="node">{$vo.addtime|date="Y-m-d H:i:s", ###}</td>
+                  <td class="time">
+                <if condition="$vo.is_read eq 1">
+                    已读
+                    <else />
+                    <font color="red">未读</font>
+                </if>
+                </td>
+                <td class="time">{$vo.truefilename} 
+                <if condition="$vo[truefilename]"> 
+                    <a href="{:U('download',array('id'=>$vo['id']))}">[下载]</a>
+                </if> </td>
+                <td class="operate">
+                <a href="javascript:;" class="chakan" data-id="{$vo.id}">查看</a>
+               <a href="javascript:del({$vo['id']});" onclick="return confirm('你确定要删除吗？')">删除</a></td>
+
+            </tr>
+            </volist>
+        </tbody>
+    </table>
+    </form>
+</div>
+<div class="pagination ue-clear yahoo2"  style="position: absolute;top: 330px;">{$show}</div>
+</body>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/common.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/WdatePicker.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.pagination.js"></script>
+<script src="__PUBLIC__/Plugs/layer/layer.js"></script>
+<script>
+//自动查询发件箱最新内容
+    function checkReceive(){
+        var p = $('#yi').text();
+        var url = "{:U('Email/checkReceive')}";
+        $.post(url,{},function(e){
+            if(e['id'] != {$data['0']['id']} && p == 1 ){
+                window.location.reload();
+            }
+        //alert({$data['0']['id']});
+        //alert(e['id']); 
+        },'json');
+
+    }
+     checkReceive();
+        $(function(){
+             setInterval('checkReceive()',5000);
+        })
+
+</script>
+<script>
+//删除
+    function del(id){
+    // var id = $(this).attr('data-id');
+    // var id = $('td[class=operate] a').attr('data-id');
+        var a = 'a';
+        var url = 'http://www.invest.com/index.php/Admin/Email/del/id/'+id;
+        $.get(url,{}, function(e){
+        $("#a"+id).remove(); 
+        window.location.reload();
+        },'json');
+
+    }
+    //全部删除
+    function delAllReceive(){
+        var url = 'http://www.invest.com/index.php/Admin/Email/delAllReceive';
+        $.get(url,{}, function(e){
+             window.location.reload();
+        },'json');
+    }
+
+    //批量删除
+        function batchDel(){
+            $('#myform').submit();
+        };
+       
+</script>
+<script>
+    $(function(){
+        $('.chakan').click(function(){
+            var id = $(this).attr('data-id');
+            var url = 'http://www.invest.com/index.php/Admin/Email/getReceiveById/id/'+id;
+            //alert(url);
+            layer.open({
+                type: 2,
+                title: '信件详情',
+                shadeClose: true,
+                shade: false,
+                maxmin: true, //开启最大化最小化按钮
+                area: ['893px', '500px'],
+                content: url,
+                end:function(){
+                    //弹出层窗口关闭后，执行的代码
+                    //变未读为已读
+                    //刷新当前页面
+                    window.location.reload();
+                }
+            });
+        })
+    })
+</script>
+<script type="text/javascript">
+$(".select-title").on("click",function(){
+    $(".select-list").hide();
+    $(this).siblings($(".select-list")).show();
+    return false;
+})
+$(".select-list").on("click","li",function(){
+    var txt = $(this).text();
+    $(this).parent($(".select-list")).siblings($(".select-title")).find("span").text(txt);
+})
+
+// $('.pagination').pagination(100,{
+//  callback: function(page){
+//      alert(page);    
+//  },
+//  display_msg: true,
+//  setPageNo: true
+// });
+
+$("tbody").find("tr:odd").css("backgroundColor","#eff6fa");
+
+showRemind('input[type=text], textarea','placeholder');
+</script>
+</html>

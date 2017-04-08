@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta name="keywords" content="scclui框架">
+	<meta name="description" content="scclui为轻量级的网站后台管理系统模版。">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>投资列表</title>
+
+  </head>
+
+  <body>
+    <form action="{:U('Invest/addHandle')}" method="post">
+       <div align="center">
+            <p>
+                <label>项目名称</label>
+                <input type="text" name="project_name" value="">
+            </p>
+            <p>
+                <label>信用等级</label>
+                <input type="text" name="rank" value="">
+            </p>
+            <p>
+                <label>项目类型</label>
+                    <select name="type_id">
+                        <option value="0"></option>
+                        <volist name="data" id="vo">
+                            <option value="{$vo.id}">{$vo.type}</option>
+                        </volist>
+                    </select>
+                <!-- <input type="text" name="type_id" value=""> -->
+            </p>
+            <p>
+                <label>项目利率</label>
+                <input type="text" name="rate" value="">
+            </p>
+            <p>
+                <label>项目金额</label>
+                <input type="text" name="target_money" value="">
+            </p>
+            <p>
+                <label>起投金额</label>
+                <input type="text" name="start_money" value="">
+            </p>
+            <p>
+                <label>项目周期</label>
+                <input type="text" name="day" value="">
+            </p>
+            <p>
+                &nbsp&nbsp&nbsp&nbsp<input type="submit" value="添加"/>
+            </p>
+        </div>
+    </form>
+  </body>
+</html>

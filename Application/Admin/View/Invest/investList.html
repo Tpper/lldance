@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="__PUBLIC__/Admin/common/css/base.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Admin/common/css/info-mgt.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Admin/common/css/WdatePicker.css" />
+    <title>添加项目</title>
+
+  </head>
+  <body>
+    <!--<a href="add.html" class="button ico Bid">添加项目</a>
+
+        <table border="1" cellspacing="0">
+            <tr align="center">
+                <th width="120">项目ID</th>
+                <th width="120">项目名称</th>
+                <th width="120">信用等级</th>
+                <th width="120">项目类型</th>
+                <th width="120">利率</th>
+                <th width="120">项目金额</th>
+                <th width="120">进度</th>
+                <th width="120">结算期限</th>
+                <th width="120">操作</th>
+            </tr>
+            <volist name="data" id="vo">
+            <tr>
+                <td>{$vo.project_id}</td>
+                <td>{$vo.project_name}</td>
+                <td>{$vo.rank}</td>
+                <td>{$vo.type_id}</td>
+                <td>{$vo.rate}</td>
+                <td>{$vo.target_money}</td>
+                <td>{$vo.jindu}</td>
+                <td>{$vo.day}</td>
+                <td><a href="{:U('Invest/del',array('id'=>$vo['project_id']))}" class="button ico Bid">删除</a></td>
+            </tr>
+            </volist>
+        </table>
+
+        <div class="pagination ue-clear" align="center">{$show}</div>-->
+  
+<div class="title"><h2>项目管理</h2></div>
+    <div class="table-operate ue-clear">
+        <a href="{:U('add')}" class="add">添加</a>
+    </div>
+    
+    <div class="table-box">
+       
+        <table >
+            <thead>
+                <tr>
+                    <th width="120">项目序号</th>
+                    <th width="120">项目名称</th>
+                    <th width="120">信用等级</th>
+                    <th width="120">项目类型</th>
+                    <th width="120">项目利率</th>
+                    <th width="120">项目金额</th>
+                    <th width="120">项目进度</th>
+                    <th width="120">结算期限</th>
+                    <th width="120">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <volist name="data" id="vo">
+                <tr>
+                    <td><input type="checkbox" name="id[]" value="{$vo.project_id}"/>{$vo.project_id}</td>
+                    <td>{$vo.project_name}</td>
+                    <td>{$vo.rank}</td>
+                    <td>{$vo.type_id}</td>
+                    <td>{$vo.rate}</td>
+                    <td>{$vo.target_money}</td>
+                    <td>{$vo.jindu}</td>
+                    <td>{$vo.day}</td>
+                    <td><a href="{:U('Invest/del',array('id'=>$vo['project_id']))}" class="del">删除</a></td>
+                </div>
+            </volist>
+            </tbody>            
+        </table>
+       
+    <div class="pagination ue-clear" align="center">{$show}</div>
+</div>
+
+<div class="pagination ue-clear"></div>
+  </body>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/common.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/WdatePicker.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/Admin/common/js/jquery.pagination.js"></script>
+  <script src="__PUBLIC__/Admin/Plugins/layer/layer.js"></script>
+</html>
+<script>
+    $(function(){
+        //反选
+        $('.fanxuan').click(function(){
+            $("input[type='checkbox']").prop("checked",function(i,val){
+                return !val;
+            });
+        });
+        //取消
+        $('.quxiao').click(function(){
+            $("input[type='checkbox']").prop("checked",function(i,val){
+                return false;
+            });
+        });
+        //反选
+        $('.quanxuan').click(function(){
+            $("input[type='checkbox']").prop("checked",function(i,val){
+                return true;
+            });
+        });
+    })
+</script>

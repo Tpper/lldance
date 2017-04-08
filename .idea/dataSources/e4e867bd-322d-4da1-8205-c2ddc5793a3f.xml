@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - invest@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="invest">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="beijing"/>
+    <schema id="3" name="blog"/>
+    <schema id="4" name="db_bbs"/>
+    <schema id="5" name="db_five"/>
+    <schema id="6" name="dedecmsv57utf8sp1"/>
+    <schema id="7" name="guanli"/>
+    <schema id="8" name="information_schema"/>
+    <schema id="9" name="itcast"/>
+    <schema id="10" name="mynews"/>
+    <schema id="11" name="mysql"/>
+    <schema id="12" name="news"/>
+    <schema id="13" name="nihao"/>
+    <schema id="14" name="oa"/>
+    <schema id="15" name="performance_schema"/>
+    <schema id="16" name="picture"/>
+    <schema id="17" name="ranzhi"/>
+    <schema id="18" name="sdaf"/>
+    <schema id="19" name="su"/>
+    <schema id="20" name="t1"/>
+    <schema id="21" name="test"/>
+    <table id="22" parent="1" name="admin"/>
+    <table id="23" parent="1" name="announcement"/>
+    <table id="24" parent="1" name="borrow"/>
+    <table id="25" parent="1" name="email"/>
+    <table id="26" parent="1" name="email_user"/>
+    <table id="27" parent="1" name="invest_list"/>
+    <table id="28" parent="1" name="invest_type"/>
+    <table id="29" parent="1" name="medium"/>
+    <table id="30" parent="1" name="personal_invest"/>
+    <table id="31" parent="1" name="property"/>
+    <table id="32" parent="1" name="user"/>
+    <column id="33" parent="22" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="34" parent="22" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="35" parent="22" name="password">
+      <mandatory>1</mandatory>
+      <data-type>char(32)|0</data-type>
+    </column>
+    <key id="36" parent="22" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="37" parent="23" name="announcement_id">
+      <comment>网站公告</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="38" parent="23" name="title">
+      <comment>标题</comment>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="39" parent="23" name="content">
+      <comment>内容</comment>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="40" parent="23" name="time">
+      <comment>来源</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="41" parent="23" name="source">
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="42" parent="23" name="pic">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="43" parent="23" name="PRIMARY">
+      <columns>announcement_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="44" parent="24" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="45" parent="24" name="amount">
+      <mandatory>1</mandatory>
+      <data-type>decimal(15,2)|0</data-type>
+    </column>
+    <column id="46" parent="24" name="date">
+      <mandatory>1</mandatory>
+      <data-type>int(3)|0</data-type>
+    </column>
+    <column id="47" parent="24" name="income">
+      <mandatory>1</mandatory>
+      <data-type>decimal(15,2)|0</data-type>
+    </column>
+    <column id="48" parent="24" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="49" parent="24" name="time">
+      <comment>借款时间</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="50" parent="24" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="51" parent="25" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="52" parent="25" name="send_id">
+      <comment>发送人的id</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="53" parent="25" name="receive_id">
+      <comment>收件人的id</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="54" parent="25" name="addtime">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="55" parent="25" name="title">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="56" parent="25" name="content">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="57" parent="25" name="filepath">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="58" parent="25" name="truefilename">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="59" parent="25" name="is_read">
+      <comment>0表示未读,1表示已读</comment>
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <key id="60" parent="25" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="61" parent="26" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="62" parent="26" name="send_id">
+      <comment>发送人的id</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="63" parent="26" name="receive_id">
+      <comment>收件人的id</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="64" parent="26" name="addtime">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="65" parent="26" name="title">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="66" parent="26" name="content">
+      <data-type>text|0</data-type>
+    </column>
+    <column id="67" parent="26" name="filepath">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="68" parent="26" name="truefilename">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="69" parent="26" name="is_read">
+      <comment>0表示未读,1表示已读</comment>
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <key id="70" parent="26" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="71" parent="27" name="project_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="72" parent="27" name="rank">
+      <comment>信用等级</comment>
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="73" parent="27" name="project_name">
+      <comment>项目名称</comment>
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="74" parent="27" name="rate">
+      <comment>利率</comment>
+      <mandatory>1</mandatory>
+      <data-type>varchar(4)|0</data-type>
+      <default-expression>&apos;&apos;</default-expression>
+    </column>
+    <column id="75" parent="27" name="day">
+      <comment>期限</comment>
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+    </column>
+    <column id="76" parent="27" name="start_money">
+      <comment>投资金额</comment>
+      <mandatory>1</mandatory>
+      <data-type>decimal(15,2)|0</data-type>
+    </column>
+    <column id="77" parent="27" name="target_money">
+      <comment>目标总资金</comment>
+      <mandatory>1</mandatory>
+      <data-type>decimal(15,2)|0</data-type>
+    </column>
+    <column id="78" parent="27" name="jindu">
+      <comment>项目进度</comment>
+      <mandatory>1</mandatory>
+      <data-type>varchar(4)|0</data-type>
+    </column>
+    <column id="79" parent="27" name="type_id">
+      <comment>项目类型</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="80" parent="27" name="PRIMARY">
+      <columns>project_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="81" parent="28" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="82" parent="28" name="type">
+      <mandatory>1</mandatory>
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <key id="83" parent="28" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="84" parent="29" name="medium_id">
+      <comment>媒体报道</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="85" parent="29" name="title">
+      <comment>标题</comment>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="86" parent="29" name="content">
+      <comment>内容</comment>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="87" parent="29" name="time">
+      <comment>时间</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="88" parent="29" name="source">
+      <comment>来源</comment>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="89" parent="29" name="title_pic">
+      <comment>标题图片</comment>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="90" parent="29" name="content_pic">
+      <comment>内容图片</comment>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="91" parent="29" name="PRIMARY">
+      <columns>medium_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="92" parent="30" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="93" parent="30" name="project_id">
+      <comment>项目id</comment>
+      <data-type>tinyint(11)|0</data-type>
+    </column>
+    <column id="94" parent="30" name="time">
+      <comment>投资时间</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="95" parent="30" name="amount">
+      <comment>投资金额</comment>
+      <mandatory>1</mandatory>
+      <data-type>float(15,2)|0</data-type>
+    </column>
+    <column id="96" parent="30" name="user_id">
+      <comment>用户id</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="97" parent="30" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="98" parent="31" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="99" parent="31" name="money">
+      <mandatory>1</mandatory>
+      <data-type>float(15,2)|0</data-type>
+      <default-expression>&apos;0.00&apos;</default-expression>
+    </column>
+    <column id="100" parent="32" name="id">
+      <comment>用户表</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="101" parent="32" name="pname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(18)|0</data-type>
+    </column>
+    <column id="102" parent="32" name="name">
+      <data-type>varchar(10)|0</data-type>
+    </column>
+    <column id="103" parent="32" name="password">
+      <mandatory>1</mandatory>
+      <data-type>char(32)|0</data-type>
+    </column>
+    <column id="104" parent="32" name="city">
+      <data-type>char(10)|0</data-type>
+    </column>
+    <column id="105" parent="32" name="tel">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="106" parent="32" name="sex">
+      <mandatory>1</mandatory>
+      <data-type>enum(&apos;男&apos;, &apos;女&apos;)|0</data-type>
+      <default-expression>&apos;男&apos;</default-expression>
+    </column>
+    <column id="107" parent="32" name="birthday">
+      <mandatory>1</mandatory>
+      <data-type>char(10)|0</data-type>
+    </column>
+    <column id="108" parent="32" name="time">
+      <comment>创建时间</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="109" parent="32" name="real">
+      <mandatory>1</mandatory>
+      <data-type>enum(&apos;1&apos;, &apos;0&apos;)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <key id="110" parent="32" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

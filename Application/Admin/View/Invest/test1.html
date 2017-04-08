@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta name="keywords" content="scclui框架">
+	<meta name="description" content="scclui为轻量级的网站后台管理系统模版。">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>首页</title>
+
+  </head>
+
+  <body>
+	<table>
+        <table border="1" cellspacing="0">
+            <tr align="center">
+                <th width="120">项目ID</th>
+                <th width="120">信用等级</th>
+                <th width="120">项目名称</th>
+                <th width="120">项目类型</th>
+                <th width="120">借款年利率</th>
+                <th width="120">期限</th>
+                <th width="120">投资金额</th>
+                <th width="120">进度</th>
+                <th width="120">操作</th>
+
+            </tr>
+            <volist name="data" id="vo">
+            <tr>
+                <td>{$vo.project_id}</td>
+                <td>{$vo.rank}</td>
+                <td>{$vo.project_name}</td>
+                <td>{$vo.type_id}</td>
+                <td>{$vo.rate}</td>
+                <td>{$vo.day}</td>
+                <td>{$vo.money}</td>
+                <td>{$vo.jindu}</td>
+                <td><a href="invest-show.html" class="button ico Bid">删除</a></td>
+            </tr>
+            </volist>
+        </table>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="十七金融">
+    <meta name="author" content="十七金融">
+    <link href="__PUBLIC__/Admin/common/css/css.css" rel="stylesheet">
+    <!--[if lt IE 9]-->
+    <link href="__PUBLIC__/Admin/common/css/ie.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.js"></script>
+    <link href="favicon.ico" rel="SHORTCUT ICON">
+    <title>十七金融</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<form action="" method="get" enctype="multipart/form-data">
+    <div class="borrow">
+        <table class="productForm">
+
+            <tr>
+                <th></th>
+                <td class="hight">
+                    <span style="font-size:25px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;借款用户信息</span>
+                    <div class="tishi"><span id="realNameError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+
+            <tr>
+                <th>真实姓名:</th>
+                <td class="hight">
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;" maxlength="15"
+                           value="{$data.name}" readonly="readonly"/>
+                    <div class="tishi"><span id="realNameError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+
+            <tr>
+                <th>居住城市:</th>
+                <td class="hight">
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;"
+                           value="{$data.city}" readonly="readonly"/>
+                    <div class="tishi"><span id="realNameError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+
+            <tr>
+                <th>移动电话:</th>
+                <td class="hight">
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;"
+                           value="{$data.tel}" readonly="readonly"/>
+                    <div class="tishi"><span id="mobileError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+            <tr>
+                <th>性别:</th>
+                <td class="hight">
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;"
+                           value="{$data.sex}" readonly="readonly"/>
+                    <div class="tishi"><span id="mobileError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+            <tr>
+                <th>出生日期:</th>
+                <td>
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;"
+                           value="{$data.birthday}" readonly="readonly"/>
+                    <div class="tishi"><span id="birthdayError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+            <tr>
+                <th>借款金额:</th>
+                <td>
+
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;"
+                           value="{$data.amount}" readonly="readonly"/>
+                    <div class="tishi"><span id="amountError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+            <tr>
+                <th>借款期限:</th>
+                <td>
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;"
+                           value="{$data.date}" readonly="readonly"/>
+                    <div class="tishi"><span id="amountError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+            <tr>
+                <th>月均收入:</th>
+                <td>
+
+                    <input id="realName" name="name" class="input_all i_yuan input_1" style="border: 0;"
+                           value="{$data.income}" readonly="readonly"/>
+                    <div class="tishi"><span id="incomeError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" id="save1" value="通过" class=" btnSize_6 "/>
+                    <!--<input type="hidden" value="{$data.id}" />-->
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" id="save2" value="拒绝" class=" btnSize_6 "/>
+                    <div class="tishi"><span id="incomeError" class="prompt_2 hidden"></span></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+</body>
+</html>
+<script>
+    $(function () {
+        //点击确定,提交表单
+
+
+        $('#save1').click(function () {
+            var id = "{$Think.get.id}";
+//            alert(id);
+            $.post("__CONTROLLER__/status", {id: id, cid: 3}, function (e) {
+                        if (e[0] == 3) {
+                            $('#' + id, parent.document).find('td:eq(11)').html("<span style='color: green'>已通过</span>");
+                        }
+                    }
+                    , 'json');
+        });
+        $('#save2').click(function () {
+            var id = "{$Think.get.id}";
+//            alert(id);
+            $.post("__CONTROLLER__/status", {id: id, cid: 2}, function (e) {
+                        if (e[0] == 2) {
+                            $('#' + id, parent.document).find('td:eq(11)').html("<span style='color: green'>已拒绝</span>");
+                        }
+                    }
+                    , 'json');
+        });
+
+//            $('form').submit(); //submit 是jquery中的函数,直接使用jQuery对象来调用
+
+    })
+</script>
